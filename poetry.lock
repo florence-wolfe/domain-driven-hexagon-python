@@ -54,6 +54,17 @@ argon2 = ["argon2-cffi (>=19.1.0)"]
 bcrypt = ["bcrypt"]
 
 [[package]]
+name = "django-extensions"
+version = "3.2.3"
+description = "Extensions for Django"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+Django = ">=3.2"
+
+[[package]]
 name = "django-injector"
 version = "0.3.1"
 description = "Integrate injector with Django"
@@ -374,7 +385,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d50d8c6e3f161baf19fa9b00c9eab226c291266051e1931233c70cf38e458424"
+content-hash = "4be30c3a072f4b70e0e4c756afc3f38840ded639c0cd945487c1475291ab4c0a"
 
 [metadata.files]
 annotated-types = [
@@ -484,6 +495,10 @@ charset-normalizer = [
 django = [
     {file = "Django-4.2.7-py3-none-any.whl", hash = "sha256:e1d37c51ad26186de355cbcec16613ebdabfa9689bbade9c538835205a8abbe9"},
     {file = "Django-4.2.7.tar.gz", hash = "sha256:8e0f1c2c2786b5c0e39fe1afce24c926040fad47c8ea8ad30aaf1188df29fc41"},
+]
+django-extensions = [
+    {file = "django-extensions-3.2.3.tar.gz", hash = "sha256:44d27919d04e23b3f40231c4ab7af4e61ce832ef46d610cc650d53e68328410a"},
+    {file = "django_extensions-3.2.3-py3-none-any.whl", hash = "sha256:9600b7562f79a92cbf1fde6403c04fee314608fefbb595502e34383ae8203401"},
 ]
 django-injector = [
     {file = "django_injector-0.3.1.tar.gz", hash = "sha256:2627fbf5a13adcb0b4db25c59bb8f433ba7533ed11a5b6d84ac9767fb8bf6cbc"},

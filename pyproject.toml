@@ -25,6 +25,7 @@ djangorestframework = "^3.14.0"
 djangorestframework-stubs = "^3.14.4"
 drf-typed = "^0.3.0"
 pydantic = "^2.5.2"
+django-extensions = "^3.2.3"
 
 [build-system]
 requires = ["poetry-core"]
