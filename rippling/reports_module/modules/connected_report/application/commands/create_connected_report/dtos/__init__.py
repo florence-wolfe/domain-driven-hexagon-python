@@ -1,0 +1,2 @@
+from .create_connected_report_request_dto import CreateConnectedReportRequestDTO
+from .create_connected_report_response_dto import CreateConnectedReportResponseDTO
