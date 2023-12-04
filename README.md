@@ -86,5 +86,8 @@ c  - You'll see subdirectories that are named based on use-case rather than by d
 - We can improve the type signature for the Request data to ensure that it adheres to the request DTO correctly. For example, you may notice a type error in the `CreateConnectedReportController` related to the str type not matching the enum's type.
 - We can possibly move the `common` module which was intended to contain shared module behavior to the `core` folder, as this seems to serve a better intent.
 - It would be great to create lint rules that would enforce some import boundaries — For example, it would be great to prevent _any_ file other than services to import implementation code.
+- We can further isolate the application by adding abstractions for the router and the controllers to avoid dependending directly on the http framework
+- We can create a CLI for templating and bootstrapping new domains/services/etc.
+- We can come up with some test examples as well
 
 Everything is subject to change. All of this is just based on my opinion.
