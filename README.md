@@ -89,5 +89,6 @@ c  - You'll see subdirectories that are named based on use-case rather than by d
 - We can further isolate the application by adding abstractions for the router and the controllers to avoid dependending directly on the http framework
 - We can create a CLI for templating and bootstrapping new domains/services/etc.
 - We can come up with some test examples as well
+- Adding `Domain Events` would add an additional layer of wanted decoupling, especially with workers and other external systems like queues that can react on events.
 
 Everything is subject to change. All of this is just based on my opinion.
